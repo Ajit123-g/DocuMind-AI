@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / API keys
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Chroma / vector database
+chroma_db/
+
+# Uploaded/generated files
+uploads/
+
+# OS/editor files
+.DS_Store
+.vscode/

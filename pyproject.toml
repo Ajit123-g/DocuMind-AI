@@ -1,0 +1,29 @@
+[project]
+name = "documind-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ajit Chaurasiya", email = "ak8257085@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "chromadb>=1.5.9",
+    "gitpython>=3.1.62",
+    "huggingface-hub>=1.31.0",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.2",
+    "langchain-huggingface>=1.2.2",
+    "pypdf>=6.19.0",
+    "sentence-transformers>=6.0.1",
+    "sqlalchemy>=2.0.54",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+documind-ai = "documind_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,28 @@
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Mistral AI
+langchain-mistralai
+mistralai
+
+# Hugging Face
+langchain-huggingface
+huggingface-hub
+transformers
+sentence-transformers
+
+# Vector Database
+faiss-cpu
+
+# Environment Variables
+python-dotenv
+
+# Document Loading
+pypdf
+docx2txt
+
+# Web / API
+requests
