@@ -26,3 +26,13 @@ docx2txt
 
 # Web / API
 requests
+
+torch
+torchvision
+
+streamlit
+langchain-chroma
+chroma
+pypdf
+python-docx2txt
+pandas
